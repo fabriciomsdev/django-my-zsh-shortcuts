@@ -1,0 +1,18 @@
+# ----------------------
+# Django Aliases
+# ----------------------
+alias dj.shell='python manage.py shell'
+alias dj.serv='python manage.py runserver'
+alias dj.mk.mgs='python manage.py makemigrations'
+alias dj.mg='python manage.py migrate'
+alias dj.t='python manage.py test --keepdbcod'
+alias dja=django-admin $@
+
+# -----------------
+# Python
+# -----------------
+alias venv.on='source venv/bin/activate'
+alias venv.off='deactivate venv'
+alias venv.g='virtualenv --python=python3 venv'
+alias venv.del='deactivate venv && rm -rf venv'
+alias pip.req='venv.on && pip install -r requerements.txt'
